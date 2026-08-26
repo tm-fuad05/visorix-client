@@ -30,7 +30,7 @@ const AllVisas = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto bg-white select-none pb-24 pt-20">
+    <div className="w-11/12 max-w-7xl mx-auto bg-white select-none pb-24 pt-20">
       {/* Dynamic Header Hero Terminal */}
       <div className="text-center py-12 lg:py-16  border-b border-gray-50 mb-12">
         <motion.div
@@ -49,7 +49,7 @@ const AllVisas = () => {
       </div>
 
       {/* Controller & Filter Terminal Panel */}
-      <div className="w-11/12 mx-auto mb-10 flex items-center justify-start">
+      <div className="w-full mb-10 flex items-center justify-start">
         <div className="relative flex items-center">
           <FiSliders className="absolute left-4 text-gray-400 text-sm pointer-events-none" />
           <select

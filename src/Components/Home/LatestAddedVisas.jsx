@@ -17,7 +17,7 @@ const LatestAddedVisas = () => {
   }, []);
 
   return (
-    <div className="my-32 w-11/12 mx-auto">
+    <div className="my-24 w-11/12 max-w-7xl mx-auto">
       <section className="flex flex-col justify-center items-center my-10 w-10/12 mx-auto ">
         <h2 className="text-2xl lg:text-4xl font-bold ">Latest Added Visas</h2>
         <RxBorderSolid className="text-5xl text-blue-600" />

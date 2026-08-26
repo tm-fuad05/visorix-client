@@ -33,7 +33,7 @@ const AboutUs = () => {
   return (
     <div className="bg-white min-h-screen select-none pt-32 pb-20">
       {/* Upper Brand Section */}
-      <div className="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch mb-24">
+      <div className="w-11/12 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch mb-24">
         {/* Welcome Block */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

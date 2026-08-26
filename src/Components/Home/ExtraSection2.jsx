@@ -33,7 +33,7 @@ const ExtraSection2 = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto mb-20 mt-16 overflow-hidden select-none">
+    <div className="w-11/12 max-w-7xl mx-auto mb-20 mt-16 overflow-hidden select-none">
       {/* Header Area with Motion */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

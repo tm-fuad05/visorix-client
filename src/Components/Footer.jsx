@@ -14,8 +14,9 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto bg-white border-t border-gray-100 select-none pt-16 pb-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 pb-12 border-b border-gray-50">
+    <footer className="w-full bg-white border-t border-gray-100 select-none pt-16 pb-8">
+      <div className="w-11/12 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 pb-12 border-b border-gray-50">
         {/* Column 1: Brand Info Terminal */}
         <div className="space-y-6">
           <div className="flex items-center gap-2">
@@ -115,7 +116,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Copyright Base Node */}
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-bold tracking-wider text-gray-400 ">
+      <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-bold tracking-wider text-gray-400">
         <p>&copy; {new Date().getFullYear()} Visorix. All Rights Reserved.</p>
         <div className="flex items-center gap-6">
           <a href="#" className="hover:text-primaryBlue transition-colors">
@@ -127,6 +128,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+  </footer>
   );
 };
 
